@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.top-container{
+    position: relative;
+    background-color:#B3A492;
+    padding-top: 230px;
+}
+.logo{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    border-radius: 15%;
+    right: 20px;
+    top: 20px;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    font-size: 6rem;
+}
+h2{
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    font-family: sans-serif;   
+    margin-bottom: 50px;
+}
+span{
+    color:#6C5F5B;
+}
+.laptop{
+    width: 350px;
+    height: 300px;
+    border-radius: 15%;
+    margin-left: 20px;
+    margin-bottom: 20px;   
+}
+.middle-container{
+    background-color:#4F4A45;
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.yusuf{
+    width: 300px;
+    height: 400px;
+    border-radius: 50%;
+}
+.intro{
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    width: 30%;
+    margin-bottom: 100px;
+}
+.profile h2{
+    margin-top: 50px;
+}
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    padding-bottom: 30px;
+    
+}
+.gif{
+    width: 350px;
+}
+.list li{
+    list-style: none;
+    margin: 10px;
+    margin-left: 100px;
+}
+.contact-me{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    padding-top: 100px;
+}
+.btn{
+    text-decoration: none;
+    color: white;
+    background-color: #B0A695;
+    padding: 20px 10px 20px 10px;
+    border-radius:10px;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.btn:hover{
+    color:#427D9D;
+}
+.bottom-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#B3A492;
+    padding: 50px 0 20px;    
+}
+a{
+    text-decoration: none;
+    color:#776B5D;
+    font-family: sans-serif;
+    margin: 15px;
+}
+a:hover{
+    color: white;
+}
+
+.bottom-container p{
+    color: white;
+    margin: 50px;
+}
